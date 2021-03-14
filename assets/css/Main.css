@@ -149,3 +149,65 @@ body, html {
     font-weight: bold;
     font-size: 24px;
 }
+
+.block-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #C5D0E6;
+    padding: 50px 20%;
+}
+
+.block-3 .line-title {
+    color: #232F63;
+    font-size: 49px;
+}
+
+.block-3 .table {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-3 .table .elem {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.block-3 .line-t {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.block-3 .line {
+    font-size: 36px;
+    padding: 25px 0;
+}
+
+.table .elem .button {
+    display: flex;
+    /* Group 2 */
+    width: 485px;
+    height: 106px;
+    justify-content: center;
+    background: #E6E6FA;
+    border: 1px solid #A3C6C0;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #000000;
+}
+
+.table .elem .button .text{
+    display: flex;
+    align-items: center;
+}
+
+.table .elem .button:hover{
+    border: 3px solid #A3C6C0;
+    cursor: pointer;
+}
