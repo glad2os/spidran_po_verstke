@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Century-Gothic";
+    src: url(../CenturyGothic/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: "Century-Gothic-Bold";
+    src: url(../CenturyGothic/CenturyGothic-Bold.ttf);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Century-Gothic", serif;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #C5D0E6;
+    padding: 50px 20%;
+}
+
+.block-1 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-1 .header .logo {
+    font-size: 65px;
+    color: white;
+    text-shadow: 2px 2px 2px #000
+}
+
+
+.block-1 .header .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-1 .header .nav .sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.block-1 .header .nav .sub .item {
+    padding: 5px 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.big-title {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 54px;
+}
+
+.white-bold {
+    color:white;
+    text-shadow: 2px 2px 2px #000
+}
+
+@media screen and (max-device-width: 1374px) {
+    .block-1 .header .nav .sub .item {
+        padding: 5px 8px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-device-width: 900px) {
+    .block-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .block-1 .header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
