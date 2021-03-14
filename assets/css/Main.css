@@ -126,3 +126,26 @@ body, html {
     }
 }
 
+.block-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20%;
+}
+
+.block-2 .line-header {
+    font-size: 51px;
+    color: #232F63;
+}
+
+.block-2 .line {
+    padding: 15px 0;
+    font-size: 36px;
+}
+
+.block-2 .line-bold {
+    padding: 25px 0;
+    color: #232F63;
+    font-weight: bold;
+    font-size: 24px;
+}
