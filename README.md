@@ -1,0 +1,1 @@
+spidran_po_verstke
