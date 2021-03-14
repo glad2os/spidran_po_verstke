@@ -56,6 +56,11 @@ body, html {
     text-align: center;
 }
 
+.block-1 .header .nav .sub .item:hover {
+    cursor: pointer;
+    background-color: rgba(169, 26, 255, 0.1);
+}
+
 .big-title {
     display: inline-flex;
     flex-direction: row;
@@ -63,8 +68,42 @@ body, html {
 }
 
 .white-bold {
-    color:white;
+    color: white;
     text-shadow: 2px 2px 2px #000
+}
+
+.ad {
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.ad .button {
+    margin: 30px 0;
+    height: 72px;
+    width: 407.02px;
+    justify-content: center;
+    background: #E6E6FA;
+    border: 1px solid #A3C6C0;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    color: #000000;
+}
+
+.ad .button .text {
+    display: flex;
+    align-items: center;
+}
+
+.ad .button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
 }
 
 @media screen and (max-device-width: 1374px) {
