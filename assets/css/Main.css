@@ -412,3 +412,39 @@ body, html {
     color: #3b4c98;
     cursor: pointer;
 }
+
+.footer {
+    padding: 50px 0;
+    background-color: #232F63;
+    color: #E6E6FA;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+
+.footer svg {
+    align-self: center;
+    margin-left: 200px;
+}
+
+.footer .block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer .block .line {
+    margin: 10px 0;
+}
+
+.footer .block .links {
+    margin: 15px 0;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .block .links .elem:hover {
+    cursor: pointer;
+    color: white;
+}
